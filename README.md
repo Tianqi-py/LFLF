@@ -49,4 +49,4 @@ main-unsup: run models with unsupervised loss
 
 baselines:
 
-2 layers GCN, GAT, GraphSAGE, MLP, H2GCN in supervised setting
+2 layers GCN, GAT, GraphSAGE, MLP, GCN-LPA, H2GCN in supervised setting
