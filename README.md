@@ -2,8 +2,6 @@
 Layerwise Feature Label Fusion Model Repository
 
 Data:
-
-
 the data folder with the datasets's name is the original dataset, containing its fetaures, labels and edges
 
 
@@ -20,8 +18,6 @@ Hypersphere datasets are named after the rule "Hypersphere_rel_irre_red", i.e. t
 
 
 Code:
-
-
 models in : LFLF.py and LFLF_sup.py
 
 the supervised and unsupervised models have variants:
@@ -41,12 +37,9 @@ metrics: evaluation functions, loss,
 
 
 main: for a quick run, change the parameter in main.py and run
-
-main_sup: run models with supervised loss
 main-unsup: run models with unsupervised loss
 
 
 
 baselines:
-
 2 layers GCN, GAT, GraphSAGE, MLP, GCN-LPA, H2GCN in supervised setting
